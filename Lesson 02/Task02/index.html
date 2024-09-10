@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2 Task 2</title>
+</head>
+
+<body>
+    <h1> Training forms </h1>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name"> Pls enter your name: </label> </td>
+                <td> <input type="text" id="name" required /> </td>
+            </tr>
+            <tr>
+                <td><label for="age">Pls enter your age: </label></td>
+                <td><input type="number" id="age" value="18" disabled /></td>
+            </tr>
+            <tr>
+                <td><label for="email">Pls enter your email: </label></td>
+                <td><input type="email" id="email" placeholder="example@gmail.com" /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Pls enter your password: </label></td>
+                <td><input type="password" id="password" /></td>
+            </tr>
+
+        </table>
+        <br>
+        <textarea rows="15" cols="45"></textarea>
+        <br>
+        <br>
+        <label for="checkbox"> Do you have animals</label>
+        <input type="checkbox" id="animals">
+        <br>
+        <br>
+        <p>Your sex:</p>
+        <label for="male">M </label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">F </label>
+        <input type="radio" name="gender" id="female">
+        <br>
+        <br>
+        <input type="date" readonly>
+        <br>
+        <br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+
+    </form>
+</body>
+
+</html>
