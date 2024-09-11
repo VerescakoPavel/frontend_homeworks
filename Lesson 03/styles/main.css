@@ -1,0 +1,26 @@
+.white_font {
+    color: white;
+}
+
+.large_font {
+    font-size: 24px;
+}
+
+.middle_font {
+    font-size: 18px;
+}
+
+header {
+    background-color: red;
+    height: 100px;
+}
+
+main {
+    background-color: blue;
+    height: 300px;
+}
+
+footer {
+    background-color: green;
+    height: 100px;
+}
